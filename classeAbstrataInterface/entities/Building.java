@@ -2,13 +2,13 @@ package classeAbstrataInterface.entities;
 
 import classeAbstrataInterface.services.CarbonFootprint;
 
-public class Building implements CarbonFootprint{
+public abstract class Building implements CarbonFootprint{
 
-	private int residentsQuantity;
+	private Integer residentsQuantity;
 	private boolean renewableEnergy;
-	private int lampsQuantity;
+	private Integer lampsQuantity;
 	
-	public Building (int residentsQuantity, boolean renewableEnergy, int lampsQuantity) {
+	public Building (Integer residentsQuantity, boolean renewableEnergy, Integer lampsQuantity) {
 		this.residentsQuantity = residentsQuantity;
 		this.renewableEnergy = renewableEnergy;
 		this.lampsQuantity = lampsQuantity;
@@ -16,13 +16,13 @@ public class Building implements CarbonFootprint{
 	
 	
 	
-	public int getResidentsQuantity() {
+	public Integer getResidentsQuantity() {
 		return residentsQuantity;
 	}
 
 
 
-	public void setResidentsQuantity(int residentsQuantity) {
+	public void setResidentsQuantity(Integer residentsQuantity) {
 		this.residentsQuantity = residentsQuantity;
 	}
 
@@ -40,7 +40,7 @@ public class Building implements CarbonFootprint{
 
 
 
-	public int getLampsQuantity() {
+	public Integer getLampsQuantity() {
 		return lampsQuantity;
 	}
 
