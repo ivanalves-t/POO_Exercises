@@ -1,4 +1,5 @@
-package classeAbstrataInterface.services;
+package classeAbstrataInterface.entities;
+
 
 public interface CarbonFootprint {
 

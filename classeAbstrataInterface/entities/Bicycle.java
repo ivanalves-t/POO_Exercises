@@ -1,7 +1,5 @@
 package classeAbstrataInterface.entities;
 
-import classeAbstrataInterface.services.CarbonFootprint;
-
 public class Bicycle implements CarbonFootprint{
 
 	private String bikeModel;

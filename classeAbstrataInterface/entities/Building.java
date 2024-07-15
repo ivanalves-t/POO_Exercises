@@ -1,7 +1,5 @@
 package classeAbstrataInterface.entities;
 
-import classeAbstrataInterface.services.CarbonFootprint;
-
 public abstract class Building implements CarbonFootprint{
 
 	private Integer residentsQuantity;
