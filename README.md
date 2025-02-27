@@ -1,1 +1,1 @@
-## Complete list of OOP discipline activities at IFPE 
+## Resolução de todas as listas da diciplina de Programação Orientada a Objetos no IFPE
